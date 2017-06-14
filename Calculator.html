@@ -38,25 +38,11 @@
       </tr>
     </table>
 
-      <button onclick="showDate()">Date and Time</button>
-      <h2 id="dateAndTime"></h2>
     </div>
     <br>
     <input type="text" id="myTextBox" />
     <input type="submit" value="Press the Button" onclick="substitute()"/>
 
-    <script>
-
-    function substitute() {
-      var myValue = document.getElementById("myTextBox").value;
-      if  (myValue.length == 0) {
-        alert("Please enter a real value in the text box.");
-        return;
-      }
-
-      var myTitle = document.getElementById('title');
-        myTitle.innerHTML = myValue;
-    }
-    </script>
+    <link rel="stylesheet" href="main.js">
   </body>
 </html>
