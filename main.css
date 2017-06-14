@@ -1,0 +1,21 @@
+
+h1 {
+  color: blue;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#calculator {
+  border: 1px solid blue;
+  width: 230px;
+  height: 300px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+th {
+  border: 1px solid blue;
+}
+
+td {
+  border: 1px solid blue;
+  text-align: center;
+}
