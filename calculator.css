@@ -5,17 +5,43 @@ h1 {
 }
 
 #calculator {
-  border: 1px solid blue;
-  width: 230px;
-  height: 300px;
-  font-family: Helvetica, Arial, sans-serif;
+  width: 340px;
+  height: 430px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 th {
-  border: 1px solid blue;
+  border: white;
+  background-color: #51AB4B;
+}
+
+.col-1 {
+  width: 65px;
+}
+
+#c {
+  width: 65px;
+  border: none;
+  background-color: #51AB4B;
+  color: white;
+  font-size: 27px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
 }
 
 td {
-  border: 1px solid blue;
+  border: white;
   text-align: center;
+  width: 65px;
+  background-color: #51AB4B;
+}
+
+td input {
+  width: 65px;
+  border: none;
+  background-color: #51AB4B;
+  color: white;
+  font-size: 27px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
 }
