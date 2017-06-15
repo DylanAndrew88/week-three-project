@@ -5,9 +5,11 @@
 }
 
 h1 {
-  color: #227E00;
+  color: #0D6715;
   font-family: 'Droid Sans', sans-serif;
   padding-left: 50px;
+  padding-top: 10px;
+  margin-bottom: -3px;
 }
 
 #calculator {
@@ -15,6 +17,7 @@ h1 {
   height: 430px;
   font-family: 'Droid Sans', sans-serif;
   padding-left: 5px;
+  padding-bottom: 10px;
   cursor: pointer;
 }
 
