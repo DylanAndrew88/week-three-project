@@ -1,10 +1,23 @@
 
-      var myValue = document.getElementById("#myTextBox");
-      if  (myValue.length == 0) {
-        alert.onclick("Please enter a real value in the text box.");
-        return;
-      }
+function c(val)
+{
+  document.getElementById("display").value = val;
+}
 
-      var myTitle = document.getElementById("#title");
-        myTitle.innerHTML = myValue;
+function math(val)
+{
+  document.getElementById("display").value += val;
+}
+
+function e()
+{
+    try
+    {
+        c(eval(document.getElementById("display").value))
     }
+
+    catch(e)
+    {
+        c("Error")
+    }
+}

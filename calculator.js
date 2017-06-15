@@ -1,12 +1,23 @@
 
-  var button7 = document.querySelector('#7');
-    onclick("calculator.anwer.value += '7'");
+function c(val)
+{
+  document.getElementById("display").value = val;
+}
 
-  var button8 = document.querySelector('#8');
-    onclick("calculator.anwer.value += '8'");
+function math(val)
+{
+  document.getElementById("display").value += val;
+}
 
-  var button9 = document.querySelector('#9');
-    onclick("calculator.anwer.value += '9'");
+function e()
+{
+    try
+    {
+        c(eval(document.getElementById("display").value))
+    }
 
-  var buttonDivide = document.querySelector('#divide');
-    onclick("calculator.anwer.value += '1'");
+    catch(e)
+    {
+        c("Error")
+    }
+}
