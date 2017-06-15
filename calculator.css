@@ -1,18 +1,21 @@
 
+.background {
+  background-color: #D4D69C;
+  width: 700px;
+}
+
 h1 {
-  color: blue;
+  color: #227E00;
   font-family: 'Droid Sans', sans-serif;
+  padding-left: 50px;
 }
 
 #calculator {
   width: 340px;
   height: 430px;
   font-family: 'Droid Sans', sans-serif;
-}
-
-th {
-  border: white;
-  background-color: #5AB953;
+  padding-left: 5px;
+  cursor: pointer;
 }
 
 .col-1 {
@@ -21,35 +24,77 @@ th {
 
 #c {
   width: 65px;
+  height: 86px;
   border: none;
   background-color: #5AB953;
   color: white;
   font-size: 27px;
   font-family: 'Droid Sans', sans-serif;
+  outline: none;
 }
 
 #display {
   width: 195px;
+  height: 86px;
   border: none;
   background-color: #5AB953;
   color: white;
   font-size: 27px;
   font-family: 'Droid Sans', sans-serif;
   text-align: right;
+  outline: none;
 }
 
 td {
   border: white;
   text-align: center;
   width: 65px;
+  height: 86px;
   background-color: #5AB953;
+  cursor: pointer;
 }
 
 td input {
   width: 65px;
+  height: 86px;
   border: none;
   background-color: #5AB953;
   color: white;
   font-size: 27px;
   font-family: 'Droid Sans', sans-serif;
+  outline: none;
+  cursor: pointer;
+}
+
+.right-col {
+  background-color: #8AD085;
+}
+
+.right-col input {
+  background-color: #8AD085;
+  color: #227E00;
+}
+
+.right-col input:hover {
+  color: white;
+}
+
+.color-change input:hover {
+  background-color: #8AD085;
+}
+
+#equals:hover {
+  background-color: #8AD085;
+}
+
+#C:hover {
+  background-color: #8AD085;
+}
+
+#c:hover {
+  background-color: #8AD085;
+}
+
+td .col-1 input:hover {
+  background-color: #8AD085;
 }
