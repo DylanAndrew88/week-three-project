@@ -1,18 +1,18 @@
 
 h1 {
   color: blue;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 #calculator {
   width: 340px;
   height: 430px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 th {
   border: white;
-  background-color: #51AB4B;
+  background-color: #5AB953;
 }
 
 .col-1 {
@@ -22,26 +22,34 @@ th {
 #c {
   width: 65px;
   border: none;
-  background-color: #51AB4B;
+  background-color: #5AB953;
   color: white;
   font-size: 27px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+#display {
+  width: 195px;
+  border: none;
+  background-color: #5AB953;
+  color: white;
+  font-size: 27px;
+  font-family: 'Droid Sans', sans-serif;
+  text-align: right;
 }
 
 td {
   border: white;
   text-align: center;
   width: 65px;
-  background-color: #51AB4B;
+  background-color: #5AB953;
 }
 
 td input {
   width: 65px;
   border: none;
-  background-color: #51AB4B;
+  background-color: #5AB953;
   color: white;
   font-size: 27px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
+  font-family: 'Droid Sans', sans-serif;
 }

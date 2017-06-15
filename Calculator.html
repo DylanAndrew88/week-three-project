@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>JS Calculator</title>
     <link rel="stylesheet" type="text/css" href="calculator.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
   </head>
   <body>
     <h1 id="title">JavaScript Calculator</h1>
@@ -17,25 +17,25 @@
         <td id="7"><input type="button" value="7" onclick="math('7')"></td>
         <td id="8"><input type="button" value="8" onclick="math('8')"></td>
         <td id="9"><input type="button" value="9" onclick="math('9')"></td>
-        <td id="divide"><input type="button" value="/" onclick="math('÷')"></td>
+        <td class="right-col" id="divide"><input type="button" value="/" onclick="math('÷')"></td>
       </tr>
       <tr>
         <td id="4"><input type="button" value="4" onclick="math('4')"></td>
         <td id="5"><input type="button" value="5" onclick="math('5')"></td>
         <td id="6"><input type="button" value="6" onclick="math('6')"></td>
-        <td id="multiply"><input type="button" value="×" onclick="math('*')"></td>
+        <td class="right-col" id="multiply"><input type="button" value="×" onclick="math('*')"></td>
       </tr>
       <tr>
         <td id="1"><input type="button" value="1" onclick="math('1')"></td>
         <td id="2"><input type="button" value="2" onclick="math('2')"></td>
         <td id="3"><input type="button" value="3" onclick="math('3')"></td>
-        <td id="minus"><input type="button" value="-" onclick="math('-')"></td>
+        <td class="right-col" id="minus"><input type="button" value="-" onclick="math('-')"></td>
       </tr>
       <tr>
         <td id="0"><input type="button" value="0" onclick="math('0')"></td>
         <td id="decimal"><input type="button" value="." onclick="math('.')"></td>
         <td id="equals"><input type="button" value="=" onclick="e()"></td>
-        <td id="plus"><input type="button" value="+" onclick="math('+')"></td>
+        <td class="right-col" id="plus"><input type="button" value="+" onclick="math('+')"></td>
       </tr>
     </table>
 
